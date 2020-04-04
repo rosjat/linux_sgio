@@ -26,42 +26,10 @@ It is also available as a downloadable zip archive from:
     https://github.com/rosjat/linux_sgio/archive/master.zip 
 
 
-Building and installing
+Installing
 =======================
-Building the module:
 
-    $ python setup.py build
-    
 Installing the module:
 
-    $ python setup.py install
+    $ pip install .
 
-
-Unit testing
-============
-The tests directory contain unit tests for python-scsi.
-To run the tests:
-
-   $ cd tests
-   $ make
-
-
-Tools (examples)
-================
-The tools directory contains example programs written against the python-scsi
-API. 
-
-inquiry.py
-----------
-An example tool to send INQUIRY commands to a device.
-
-mtx.py
-------
-An example tool to operate a SCSI media changer. Similar to, but not as
-advanced as, the 'mtx' utility.
-
-
-Mailinglist
-===========
-A mailinglist for python-scsi is available at:
-https://groups.google.com/forum/#!forum/python-scsi

@@ -11,7 +11,7 @@ if platform[:5] == 'linux':
                                   sources=['linux_sgio/sgiomodule.c'])
 
     setup(name='LINUX_SGIO',
-          version='1.0',
+          version='1.1',
           license='LGPLv2.1',
           author='Ronnie Sahlberg',
           author_email='ronniesahlberg@gmail.com',

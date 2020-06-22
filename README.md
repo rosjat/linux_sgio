@@ -9,7 +9,7 @@ This Extention was part of the [python-scsi](https://github.com/python-scsi/pyth
 
 License
 =======
-Python-scsi is distributed under LGPLv2.1
+linux-sgio is distributed under LGPLv2.1
 Please see the LICENSE file for the full license text.
 
 
